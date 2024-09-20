@@ -1,7 +1,7 @@
 {
   "name": "node-jokes",
   "version": "1.0.0",
-  "description": "A free and open source random joke generator library",
+  "description": "A free and open source library for one-liner random developer friendly jokes in node",
   "main": "./lib/index.js",
   "types": "./lib/index.js",
   "scripts": {
@@ -10,12 +10,23 @@
     "start": "concurrently \"npx tsc -w\" \"nodemon lib/index.js\"",
     "prepare": "npm run build"
   },
-  "author": "Sandeep Shome",
+  "author": "Sandeep Shome <sandeepshome.dev@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/sandeep-shome/node-jokes.git"
   },
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeep-shome/node-jokes/issues"
+  },
+  "homepage": "https://github.com/sandeep-shome/node-jokes/tree/master",
+  "license": "MIT",
+  "keywords": [
+    "node-jokes",
+    "jokes",
+    "one liner jokes",
+    "random jokes",
+    "node jokes"
+  ],
   "devDependencies": {
     "concurrently": "^9.0.1",
     "rimraf": "^6.0.1",
