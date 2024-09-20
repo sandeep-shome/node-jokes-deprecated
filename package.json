@@ -2,8 +2,8 @@
   "name": "node-jokes",
   "version": "1.0.0",
   "description": "A free and open source library for one-liner random developer friendly jokes in node",
-  "main": "./lib/index.js",
-  "types": "./lib/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.js",
   "scripts": {
     "build": "rimraf lib && npx tsc",
     "prestart": "npm run build",
