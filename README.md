@@ -2,6 +2,10 @@
 
 A free and open source library for one-liner random developer friendly jokes in node
 
+⚠️ **DEPRECATED**
+
+This project is no longer maintained and has been archived. Please use the actively maintained replacement. Thank you for your support!
+
 ## Installation
 
 Install node-jokes with npm
